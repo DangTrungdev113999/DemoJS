@@ -45,40 +45,36 @@
   - primitive types: number, string, boolean(true || false), symbol
   - Special types: null && undefined
 
-  ```js
-  let a;
-  let obj = {};
+    ```js
+    let a;
+    let obj = {};
 
-  let b = () => {};
+    let b = () => {};
 
-  console.log(b());
-  console.log(a);
-  console.log(obj.a);
-  ```
+    console.log(b());
+    console.log(a);
+    console.log(obj.a);
+    ```
 
   - Sự khác nhau giữa null & undefined ?
   - reference types: object , array ? ( Chú ý về cách lưu biến trong ô nhớ )
-  - Toán tử
 
-    ```js
-    - reference types: Object array ( Cách lưu của nó trong bộ nhớ )
-      let num = 3;
+- Toán tử
 
-      //num++ ++num
-      num++ tăng num lên một đơn vị và trả về giá trị ban đầu
-      ++num tăng num lên một đơn vị va trả về giá trị đã tăng
-      console.log(num++)
-      console.log(++num)
-      //num++ ++num
-      num++ tăng num lên một đơn vị và trả về giá trị ban đầu
-      ++num tăng num lên một đơn vị va trả về giá trị đã tăng
-      console.log(num++)
-      console.log(++num)
+  ```js
+  - reference types: Object array ( Cách lưu của nó trong bộ nhớ )
+    let num = 3;
 
-      tính nhẩm ?
-      let num = 3;
-      let num2 = num++ + num++ + ++num + ++num;
-    ```
+    //num++ ++num
+    num++ tăng num lên một đơn vị và trả về giá trị ban đầu
+    ++num tăng num lên một đơn vị va trả về giá trị đã tăng
+    console.log(num++)
+    console.log(++num)
+
+    tính nhẩm ?
+    let num = 3;
+    let num2 = num++ + num++ + ++num + ++num;
+  ```
 
 #### - Sử dụng câu điều kiện if, else, switch case, Ternary operator,
 
@@ -149,7 +145,7 @@ console.log(print());
 - javascript là ngôn ngữ đơn luồng: tức nó chỉ làm 1 việc trong 1 thời điểm, vậy làm sao nó vẫn làm nhiều việc cùng một lúc -> cơ chế bất đồng bộ của nó
 - callback: https://toidicodedao.com/2015/02/05/callback-trong-javascript/
 - promise [ES6] : https://toidicodedao.com/2016/07/05/javascript-promise/
-- async/await [next]: https://toidicodedao.com/2017/10/10/async-await-trong-javascript/
+- async/await [ES6->next]: https://toidicodedao.com/2017/10/10/async-await-trong-javascript/
 - video giải thích về bất đồng bộ: https://www.youtube.com/watch?v=8aGhZQkoFbQ
 - Ví dụ chi tiết: https://www.youtube.com/watch?v=Xj0pqYWwX8Y&list=PLzrVYRai0riRaLjgZe00gPMyLI1NdWcpL
 
